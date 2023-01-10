@@ -25,6 +25,7 @@ class Car {
 	String brand;
 	String color;
 	int price;
+	String sample;
 
 	public String findMinPriceCar(Car c1, Car c2) {
 		if (c1.price < c2.price) {

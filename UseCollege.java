@@ -29,6 +29,8 @@ class College {
 	int fees;
 	char grade;
 	String location;
+	String place;
+	int age;
 
 	public void findMaxFeesCollege(College[] a) {
 		int max = a[0].fees;
